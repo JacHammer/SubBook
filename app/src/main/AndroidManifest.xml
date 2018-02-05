@@ -15,10 +15,28 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".AddSub" />
+        <activity
+            android:name=".AddSub"
+            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".SubscriptionList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SubscriptionList" />
+        </activity>
+
+        <activity
+            android:name=".EditSub"
+            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".SubscriptionList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SubscriptionList" />
+        </activity>
     </application>
+
 </manifest>

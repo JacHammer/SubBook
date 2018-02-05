@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SubBook</string>
+    <string name="app_name">minci-SubBook</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -10,14 +10,19 @@
     <string name="show_monthly_charge_string">Monthly Charge:</string>
     <string name="canadian_dollar_abbr_string">CAD</string>
     <string name="add_new_sub_string">add...</string>
-    <string name="title_activity_subscription_list">SubscriptionList</string>
+    <string name="title_activity_subscription_list">minci-SubBook</string>
     <string name="default_price_string">0.00</string>
     <string name="add_sub_string">Subscription name:</string>
-    <string name="subscription_hint">The name should be less than 20 characters</string>
+    <string name="subscription_hint">Max 10 characters</string>
     <string name="date_string">Date:</string>
     <string name="date_hint">format: yyyy-mm-dd</string>
-    <string name="sub_price">Monthly Charge:</string>
+    <string name="date_warning">Please enter appropriate date format: yyyy-MM-dd </string>
+    <string name="sub_price">Monthly Charge(CAD):</string>
     <string name="sub_comment">Comment:</string>
-    <string name="comment_hint"> optional </string>
+    <string name="comment_hint"> Max 30 characters </string>
+    <string name="date_format">%1$d/%2$d/%3$d</string>
+    <string name="add_sub_error">Error: %1$s is not specified.</string>
     <string name="comfirm_button">CONFIRM</string>
+    <string name="delete_string">DELETE</string>
+    <string name="edit_string">EDIT</string>
 </resources>
