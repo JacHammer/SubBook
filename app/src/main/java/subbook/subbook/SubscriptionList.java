@@ -28,10 +28,30 @@ import java.lang.reflect.Type;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-/*SubscriptionList class
+/*
+* minci-subook for CMPUT 301 Assignment 1
+*
+* Author: Minci Zhou
+* ccid: minci
+* date: 20180205
+* sid: 1434760
+*
+* References:
+* https://stackoverflow.com/questions/26703691/android-return-object-as-a-activity-result
+* https://developer.android.com/training/basics/intents/result.html
+*
+* https://github.com/tlafranc/tlafranc-SubBook; license: GPLv3.0
+* Author:tlafranc;
+* access date:20170205;
+*
+*/
+
+/*
+* SubscriptionList class
 * The main activity, it shows the total monthly charge, list of subscriptions in a list view,
 * manages adding/editing/deleting subscriptions from the subscription list
 * */
+
 public class SubscriptionList extends AppCompatActivity {
 
     private static String FILENAME = "subbook.sav";
